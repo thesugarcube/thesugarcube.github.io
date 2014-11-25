@@ -132,6 +132,7 @@
  * Apply a clearfix to an element.
  */
 html, body {
+  background-image: url(../images/witewall_3.png);
   font-family: Tahoma, Verdana, Segoe, sans-serif;
   color: #5b5b5b; }
 
