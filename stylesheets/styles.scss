@@ -13,8 +13,12 @@ a {
 
 //@include edit();
 
+.wrapper {
+	@include center();
+}
+
 .navbar {
-	@include col(3/12, 1/12);
+	@include col(3/12);
 	* {
 		@include center(320)
 	}
@@ -38,4 +42,15 @@ a {
 			}
 		}
 	}
+}
+
+.section {
+	@include col(9/12);
+}
+
+h1.title {
+	text-align: center;
+	font-family: 'Tangerine', cursive;
+	font-size: 5rem;
+
 }

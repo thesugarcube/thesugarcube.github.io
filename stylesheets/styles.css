@@ -140,13 +140,29 @@ a {
   text-decoration: none;
   color: inherit; }
 
+.wrapper {
+  *zoom: 1;
+  width: auto;
+  max-width: 1410px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0; }
+  .wrapper:before, .wrapper:after {
+    content: '';
+    display: table; }
+  .wrapper:after {
+    clear: both; }
+
 .navbar {
   *zoom: 1;
   float: left;
   clear: none;
   text-align: inherit;
   width: 22.75%;
-  margin-left: 8.58333%;
+  margin-left: 0%;
   margin-right: 3%; }
   .navbar:before, .navbar:after {
     content: '';
@@ -186,5 +202,26 @@ a {
         font-weight: 700;
         padding: 2%;
         margin-left: 2%; }
+
+.section {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 74.25%;
+  margin-left: 0%;
+  margin-right: 3%; }
+  .section:before, .section:after {
+    content: '';
+    display: table; }
+  .section:after {
+    clear: both; }
+  .section:last-child {
+    margin-right: 0%; }
+
+h1.title {
+  text-align: center;
+  font-family: 'Tangerine', cursive;
+  font-size: 5rem; }
 
 /*# sourceMappingURL=styles.css.map */
