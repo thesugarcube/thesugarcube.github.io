@@ -1,8 +1,38 @@
 @import 'jeet/index';
 
+html, body {
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	color: #5b5b5b;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+//@include edit();
+
 .navbar {
-	@include col(1.5/9, 1/9);
+	@include col(3/12, 1/12);
+	* {
+		@include center(320)
+	}
 	ul {
+		a {
+			margin-left: 4%;
+			border-left: transparent solid 10px;
+			&:hover {
+				border-left: #7b4 solid 10px;
+				color: #252525;
+			}
+		}
 		list-style-type: none;
+		li {
+			font-family: 'Open Sans', sans-serif;
+			font-size: 2.5rem;
+			font-weight: 700;
+			padding: 2%;
+			margin-left: 2%;
+		}
 	}
 }

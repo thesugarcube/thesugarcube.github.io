@@ -131,13 +131,21 @@
 /**
  * Apply a clearfix to an element.
  */
+html, body {
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  color: #5b5b5b; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
 .navbar {
   *zoom: 1;
   float: left;
   clear: none;
   text-align: inherit;
-  width: 14.16667%;
-  margin-left: 11.44444%;
+  width: 22.75%;
+  margin-left: 8.58333%;
   margin-right: 3%; }
   .navbar:before, .navbar:after {
     content: '';
@@ -146,7 +154,34 @@
     clear: both; }
   .navbar:last-child {
     margin-right: 0%; }
+  .navbar * {
+    *zoom: 1;
+    width: auto;
+    max-width: 320;
+    float: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0;
+    padding-right: 0; }
+    .navbar *:before, .navbar *:after {
+      content: '';
+      display: table; }
+    .navbar *:after {
+      clear: both; }
   .navbar ul {
     list-style-type: none; }
+    .navbar ul a {
+      margin-left: 4%;
+      border-left: transparent solid 10px; }
+      .navbar ul a:hover {
+        border-left: #7b4 solid 10px;
+        color: #252525; }
+    .navbar ul li {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 2.5rem;
+      font-weight: 700;
+      padding: 2%;
+      margin-left: 2%; }
 
 /*# sourceMappingURL=styles.css.map */
