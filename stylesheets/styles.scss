@@ -1,0 +1,8 @@
+@import 'jeet/index';
+
+.navbar {
+	@include col(1.5/9, 1/9);
+	ul {
+		list-style-type: none;
+	}
+}
