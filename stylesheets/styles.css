@@ -224,4 +224,7 @@ h1.title {
   font-family: 'Tangerine', cursive;
   font-size: 5rem; }
 
+.bx-wrapper ul {
+  margin-top: 0; }
+
 /*# sourceMappingURL=styles.css.map */

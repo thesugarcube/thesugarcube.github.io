@@ -1,4 +1,21 @@
 extends ./layout.jade
 
+block stylesheets
+	link(href="stylesheets/jquery.bxslider.css", rel="stylesheet")
+
 block content
 	h1.title The Sugar Cube
+	
+	.bx-wrapper
+		ul.bxslider
+			li
+				img(src='images/slideshow/slide1.jpg')
+			li
+				img(src='images/slideshow/slide2.jpg')
+			li
+				img(src='images/slideshow/slide3.jpg')
+			li
+				img(src='images/slideshow/slide4.jpg')
+
+block scripts
+	script(src="/scripts/jquery.bxslider.min.js")
