@@ -79,6 +79,17 @@ h1.title {
 	ul {
 		margin-top: 0;
 	}
+	.bx-prev {
+    	background: url(../images/slideshow/controls.png) no-repeat 0 -32px;
+		opacity: 0.5;
+	}
+	.bx-next {
+		background: url(../images/slideshow/controls.png) no-repeat -43px -32px;
+		opacity: 0.5;
+	}
+	.bx-loading {
+		background: url(../images/slideshow/bx_loader.gif) center center no-repeat #fff;
+	}
 }
 
 .map {

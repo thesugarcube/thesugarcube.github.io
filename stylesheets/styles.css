@@ -241,6 +241,14 @@ h1.title {
 
 .bx-wrapper ul {
   margin-top: 0; }
+.bx-wrapper .bx-prev {
+  background: url(../images/slideshow/controls.png) no-repeat 0 -32px;
+  opacity: 0.5; }
+.bx-wrapper .bx-next {
+  background: url(../images/slideshow/controls.png) no-repeat -43px -32px;
+  opacity: 0.5; }
+.bx-wrapper .bx-loading {
+  background: url(../images/slideshow/bx_loader.gif) center center no-repeat #fff; }
 
 .map {
   *zoom: 1;
