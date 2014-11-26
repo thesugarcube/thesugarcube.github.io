@@ -79,3 +79,9 @@ h1.title {
 		margin-top: 0;
 	}
 }
+
+.map {
+	@include center();
+	border: 5px #fff solid;
+	box-shadow: 0 0 5px #ccc;
+}

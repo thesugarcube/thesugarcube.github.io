@@ -241,4 +241,22 @@ h1.title {
 .bx-wrapper ul {
   margin-top: 0; }
 
+.map {
+  *zoom: 1;
+  width: auto;
+  max-width: 1410px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+  border: 5px #fff solid;
+  box-shadow: 0 0 5px #ccc; }
+  .map:before, .map:after {
+    content: '';
+    display: table; }
+  .map:after {
+    clear: both; }
+
 /*# sourceMappingURL=styles.css.map */
