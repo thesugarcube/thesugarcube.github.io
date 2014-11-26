@@ -19,7 +19,7 @@ a {
 
 .navbar {
 	@include col(3/12);
-	* {
+	img, ul, a, li {
 		@include center(320)
 	}
 	ul {
@@ -40,6 +40,19 @@ a {
 				padding: 2%;
 				margin-left: 2%;
 			}
+		}
+	}
+	span {
+		margin-left: 8%;
+		.fa-circle {
+			color: #3b5998;
+		}
+		.fa-facebook {
+			color: #fff;
+		}
+		// change hover to .fa-circle when adding new icons
+		&:hover .fa-circle {
+			color: #4c6aa9;
 		}
 	}
 }
