@@ -226,6 +226,17 @@ a {
     clear: both; }
   .section:last-child {
     margin-right: 0%; }
+  .section p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    margin-bottom: -0.8em; }
+    .section p::before {
+      content: '';
+      padding-left: 2.5em; }
+    .section p.name {
+      text-align: right;
+      padding-left: 0; }
 
 h1.title {
   margin-top: 3%;
@@ -239,6 +250,23 @@ h1.title {
     font-weight: 700;
     font-size: 1.2em; }
 
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5em;
+  font-weight: 400; }
+  h2.subtitle {
+    color: #3b3b3b;
+    text-align: right;
+    margin-bottom: -0.5em; }
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-style: italic; }
+  h3.subheading {
+    color: #7b7b7b;
+    text-align: right; }
+
 .bx-wrapper ul {
   margin-top: 0; }
 .bx-wrapper .bx-prev {
@@ -249,6 +277,9 @@ h1.title {
   opacity: 0.5; }
 .bx-wrapper .bx-loading {
   background: url(../images/slideshow/bx_loader.gif) center center no-repeat #fff; }
+
+.bx-wrapper, .bx-viewport, .bx-wrapper img {
+  height: 500px !important; }
 
 .map {
   *zoom: 1;
