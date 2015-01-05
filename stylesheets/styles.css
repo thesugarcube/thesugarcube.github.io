@@ -258,6 +258,9 @@ h2 {
     color: #3b3b3b;
     text-align: right;
     margin-bottom: -0.5em; }
+  h2.call i {
+    padding-right: 15px;
+    color: #54acc1; }
 
 h3 {
   font-family: 'Roboto', sans-serif;
