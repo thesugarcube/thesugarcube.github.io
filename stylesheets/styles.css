@@ -356,4 +356,29 @@ h3 {
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
     outline-offset: -2px; }
 
+#menu {
+  text-align: center; }
+  #menu .menu-section {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    color: #eb4679;
+    letter-spacing: 0.1em; }
+  #menu hr {
+    width: 15%;
+    height: 0.3em;
+    color: #eb4679;
+    background-color: #eb4679;
+    border: 0 none;
+    margin-top: -1em;
+    margin-bottom: 2.5em; }
+  #menu .item-title {
+    font-family: 'Inconsolata', monospace;
+    font-style: normal;
+    color: 5b5b5b;
+    margin-bottom: -1em; }
+  #menu .item-description {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    margin-bottom: 2.2em; }
+
 /*# sourceMappingURL=styles.css.map */
