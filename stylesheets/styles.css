@@ -357,12 +357,14 @@ h3 {
     outline-offset: -2px; }
 
 #menu {
+  margin-top: -2em;
   text-align: center; }
   #menu .menu-section {
     font-family: 'Inconsolata', monospace;
     font-weight: 700;
     color: #eb4679;
-    letter-spacing: 0.1em; }
+    letter-spacing: 0.1em;
+    margin-top: 1.5em; }
   #menu hr {
     width: 15%;
     height: 0.3em;
@@ -380,5 +382,12 @@ h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     margin-bottom: 2.2em; }
+  #menu .item-list {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    margin-bottom: -1em;
+    margin-top: 1.4em; }
+  #menu .item-list-title {
+    margin-top: 3em; }
 
 /*# sourceMappingURL=styles.css.map */

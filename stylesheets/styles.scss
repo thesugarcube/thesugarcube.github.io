@@ -215,12 +215,14 @@ h3 {
 }
 
 #menu {
+	margin-top: -2em;
 	text-align: center;
 	.menu-section {
 		font-family: 'Inconsolata', monospace;
 		font-weight: 700;
 		color: #eb4679;
 		letter-spacing: 0.1em;
+		margin-top: 1.5em;
 	}
 	hr {
 		width: 15%;
@@ -241,5 +243,14 @@ h3 {
 		font-family: 'Roboto', sans-serif;
 		font-weight: 100;
 		margin-bottom: 2.2em;
+	}
+	.item-list {
+		font-family: 'Roboto', sans-serif;
+		font-weight: 100;
+		margin-bottom: -1em;
+		margin-top: 1.4em;
+	}
+	.item-list-title {
+		margin-top: 3em;
 	}
 }
